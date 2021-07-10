@@ -1,0 +1,97 @@
+@media (max-width:1200px) {
+    .service-icon span {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+    }
+    .service-content p {
+        font-size: 13px; 
+    }
+    .service-content {
+        width: 72%;
+    }
+    .service-content h4 {
+        font-size: 16px;
+    }
+    .porject-content h4 {
+        font-size: 18px;
+    }
+    .project-item span.service-icon {
+        top: 60%;
+    }
+}
+@media (max-width: 992px) {
+    .translent-box {
+        margin-bottom: 60px;
+    }
+    .about-img {
+        margin-bottom: 60px;
+    }
+    .project-item span.service-icon {
+        top: 56%;
+    }
+    .experience-section {
+        padding: 80px;
+    }
+    .team-items ul {
+        top: 64%;
+        left: 10%;
+    }
+
+}
+@media (max-width:768px) {
+    .project-item span.service-icon {
+        top: 67%;
+    }
+    .team-items ul {
+        top: 60%;
+        left: 3%;
+    }
+    .team-items ul li a {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 15px;
+        
+    }
+    .news-items {
+        margin-bottom: 20px;
+    }
+    .cetagory-box{
+        margin-bottom: 90px;
+    }
+}
+@media (max-width:576px) {
+    .project-item span.service-icon {
+        top: 76%;
+    }
+    .defult-heading h1 {
+        font-size: 30px;
+    }
+    .experience-text h4 {
+        font-size: 18px;
+    }
+    .team-items ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .team-items ul {
+        top: 70%;
+        left: 15%;
+    }
+    .team-items ul {
+        position: absolute;
+        top: 70%;
+        left: 33%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+    .team-items:hover ul{
+        opacity: 1;
+        visibility: visible;
+    }
+}

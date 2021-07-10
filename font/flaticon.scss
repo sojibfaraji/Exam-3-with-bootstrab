@@ -1,0 +1,129 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?f39d88cb88fb1b37b58df2caa2a5e36a") format("truetype"),
+url("./flaticon.woff?f39d88cb88fb1b37b58df2caa2a5e36a") format("woff"),
+url("./flaticon.woff2?f39d88cb88fb1b37b58df2caa2a5e36a") format("woff2"),
+url("./flaticon.eot?f39d88cb88fb1b37b58df2caa2a5e36a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?f39d88cb88fb1b37b58df2caa2a5e36a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "mail": "\f101",
+    "phone-call": "\f102",
+    "clock": "\f103",
+    "search": "\f104",
+    "menu": "\f105",
+    "flask": "\f106",
+    "lab-tool": "\f107",
+    "microscope": "\f108",
+    "checked": "\f109",
+    "plus": "\f10a",
+    "molecular": "\f10b",
+    "sugar-blood-level-1": "\f10c",
+    "anatomic-heart": "\f10d",
+    "right": "\f10e",
+    "check-mark": "\f10f",
+    "user": "\f110",
+    "call": "\f111",
+    "calendar": "\f112",
+    "double-right-arrows-angles": "\f113",
+    "placeholder": "\f114",
+    "facebook": "\f115",
+    "twitter": "\f116",
+    "linkedin": "\f117",
+    "pinterest": "\f118",
+    "up-arrow": "\f119",
+    "lung-cancer": "\f11a",
+);
+
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-flask:before {
+    content: map-get($flaticon-map, "flask");
+}
+.flaticon-lab-tool:before {
+    content: map-get($flaticon-map, "lab-tool");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-molecular:before {
+    content: map-get($flaticon-map, "molecular");
+}
+.flaticon-sugar-blood-level-1:before {
+    content: map-get($flaticon-map, "sugar-blood-level-1");
+}
+.flaticon-anatomic-heart:before {
+    content: map-get($flaticon-map, "anatomic-heart");
+}
+.flaticon-right:before {
+    content: map-get($flaticon-map, "right");
+}
+.flaticon-check-mark:before {
+    content: map-get($flaticon-map, "check-mark");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-double-right-arrows-angles:before {
+    content: map-get($flaticon-map, "double-right-arrows-angles");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-lung-cancer:before {
+    content: map-get($flaticon-map, "lung-cancer");
+}

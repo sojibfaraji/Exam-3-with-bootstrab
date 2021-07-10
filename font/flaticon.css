@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?f39d88cb88fb1b37b58df2caa2a5e36a") format("truetype"),
+url("./flaticon.woff?f39d88cb88fb1b37b58df2caa2a5e36a") format("woff"),
+url("./flaticon.woff2?f39d88cb88fb1b37b58df2caa2a5e36a") format("woff2"),
+url("./flaticon.eot?f39d88cb88fb1b37b58df2caa2a5e36a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?f39d88cb88fb1b37b58df2caa2a5e36a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-mail:before {
+    content: "\f101";
+}
+.flaticon-phone-call:before {
+    content: "\f102";
+}
+.flaticon-clock:before {
+    content: "\f103";
+}
+.flaticon-search:before {
+    content: "\f104";
+}
+.flaticon-menu:before {
+    content: "\f105";
+}
+.flaticon-flask:before {
+    content: "\f106";
+}
+.flaticon-lab-tool:before {
+    content: "\f107";
+}
+.flaticon-microscope:before {
+    content: "\f108";
+}
+.flaticon-checked:before {
+    content: "\f109";
+}
+.flaticon-plus:before {
+    content: "\f10a";
+}
+.flaticon-molecular:before {
+    content: "\f10b";
+}
+.flaticon-sugar-blood-level-1:before {
+    content: "\f10c";
+}
+.flaticon-anatomic-heart:before {
+    content: "\f10d";
+}
+.flaticon-right:before {
+    content: "\f10e";
+}
+.flaticon-check-mark:before {
+    content: "\f10f";
+}
+.flaticon-user:before {
+    content: "\f110";
+}
+.flaticon-call:before {
+    content: "\f111";
+}
+.flaticon-calendar:before {
+    content: "\f112";
+}
+.flaticon-double-right-arrows-angles:before {
+    content: "\f113";
+}
+.flaticon-placeholder:before {
+    content: "\f114";
+}
+.flaticon-facebook:before {
+    content: "\f115";
+}
+.flaticon-twitter:before {
+    content: "\f116";
+}
+.flaticon-linkedin:before {
+    content: "\f117";
+}
+.flaticon-pinterest:before {
+    content: "\f118";
+}
+.flaticon-up-arrow:before {
+    content: "\f119";
+}
+.flaticon-lung-cancer:before {
+    content: "\f11a";
+}
